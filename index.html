@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome ♪</title>
+    <link rel="stylesheet" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo"> get <span>Bass</span><a class="logosoundcloud" href="https://soundcloud.com/nicolas-britos-1"><img src="./img/soundcloud-logo-DBFE84F880-seeklogo.com.png" alt="soundcloud"></a></h1>
+    </header>
+   
+    <section class="backgroundbass">
+
+    </section>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#formulario">Contact</a>
+        </nav>
+    </div>
+
+    <main class="contenedor sombra">
+
+        <h2>Services</h2>
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Arrange</h3>
+                <div class="iconos">
+                    <img src="./img/music-sheet.png" alt="music-sheet">
+                </div>
+                <p>Aenean id aliquam massa, ut auctor metus. Aenean commodo ligula egestas libero bibendum commodo.
+                    Suspendisse eu ullamcorper magna, vitae luctus mauris. Cras ultrices tincidunt nisl eget iaculis.
+                </p>
+            </section>
+
+            <section class="servicio">
+                <h3>Class </h3>
+                <div class="iconos">
+                   <img src="./img/class.png" class="interior" alt="music-student">
+                </div>
+                <p>ulla facilisi. Cras justo purus, malesuada at consectetur sodales, viverra a ante. Nullam bibendum
+                    dictum
+                    semper.
+                    Donec sollicitudin, tellus vitae eleifend imperdiet, odio sem accumsan magna, in venenatis magna
+                    purus
+                    id
+                    elit.
+                </p>
+            </section>
+
+            <section class="servicio">
+                <h3>Recording</h3>
+                <div class="iconos">
+                   <img src="./img/record.png" alt="music-record">
+                </div>
+                <p>Donec convallis quis ipsum ac efficitur. Nulla et lacus urna. In tincidunt pretium sem sit amet
+                    dignissim.
+                    Nam porta arcu vel varius imperdiet. Proin ultrices lectus vel condimentum auctor.
+                </p>
+            </section>
+        </div> <!-- .servicios -->
+
+
+        <section class="acercade" id="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium rem at eos non nulla alias sunt magni, aut nesciunt maxime velit expedita reiciendis nam eligendi in ut fugit quos! Perspiciatis.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad molestias cumque nostrum accusamus, a reiciendis obcaecati repudiandae omnis aliquam expedita voluptates itaque nesciunt. Necessitatibus tempore voluptatem facere! Qui, praesentium?</p>
+            <div id="linkvideo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oipCEXJzi_Q?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br><br><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quas facere quo expedita omnis rem dignissimos fugiat, quibusdam, qui reprehenderit non consequuntur, nisi cupiditate autem tenetur saepe sed ipsum quidem.</p>
+        </section>
+
+        <section>
+            <h2 class="animate-charcter">Contact</h2>
+
+            <form class="formulario" id="formulario" action="" onsubmit="validate()">
+                <!--defino el fieldset-->
+                <fieldset>
+                    <!--legend se usa para darle indicaciones a los usuarios en un formulario-->
+                    <legend>Contactame llenando todos los campos</legend>
+
+                    <div class="contenedor-campos" id="contacto">
+                        <div class="campo">
+                            <label>Name</label>
+                            <!--el placeholder indica lo que tengo que escribir en el campo.
+                            Cuando empiezo a completarlo desaparece la marca de agua-->
+                            <input class="input-text" type="text" id="camponombre" placeholder="Your name">
+                        </div>
+
+                        <div class="campo">
+                            <label>Phone</label>
+                            <input class="input-text" type="text" id="campotelefono" placeholder="Your phone">
+                        </div>
+
+                        <div class="campo">
+                            <label>Mail</label>
+                            <input class="input-text" type="text" id="campocorreo" placeholder="Your email">
+                        </div>
+
+                        <div class="campo">
+                            <label>Text</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+<script src="./javascript/main.js"></script>
+</body>
+
+</html>
